@@ -11,7 +11,7 @@ service:
     source:
       repo: karlskidmore/mu-ref-spa
 parameters:
-  mu-acceptance-spa:
+  mu-99-pipeline-spa:
     MuImage: "aws/codebuild/docker:17.09.0"
     SourcePath: "./public"
 extensions:
