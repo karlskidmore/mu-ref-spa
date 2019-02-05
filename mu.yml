@@ -12,7 +12,8 @@ service:
       repo: karlskidmore/mu-ref-spa
 parameters:
   mu-pipeline-spa:
-    MuImage: "aws/codebuild/docker:17.09.0"
     SourcePath: "./public"
+    MySourcePath: "./public"
+    MuImage: "aws/codebuild/docker:17.09.0"
 extensions:
   - url: https://github.com/stelligent/mu-cloudfront/archive/v0.3.zip
