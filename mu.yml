@@ -12,7 +12,7 @@ service:
       repo: karlskidmore/mu-ref-spa
 parameters:
   mu-acceptance-spa:
-  - MuImage: "aws/codebuild/docker:17.09.0"
-  - SourcePath: "./public"
+    MuImage: "aws/codebuild/docker:17.09.0"
+    SourcePath: "./public"
 extensions:
   - url: https://github.com/stelligent/mu-cloudfront/archive/v0.3.zip
