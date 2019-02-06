@@ -1,3 +1,4 @@
+namespace: spat
 environments:
 - name: acceptance
 - name: production
@@ -11,8 +12,8 @@ service:
     source:
       repo: karlskidmore/mu-ref-spa
 parameters:
-  mu-99-pipeline-spa:
+  spat-pipeline-spa:
     MuImage: "aws/codebuild/docker:17.09.0"
     SourcePath: "./public"
 extensions:
-  - url: https://github.com/stelligent/mu-cloudfront/archive/v0.3.zip
+  - url: https://github.com/stelligent/mu-cloudfront/archive/v0.4.zip
