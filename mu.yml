@@ -16,4 +16,4 @@ parameters:
     MuImage: "aws/codebuild/docker:17.09.0"
     SourcePath: "./public"
 extensions:
-  - url: https://github.com/stelligent/mu-cloudfront/archive/v0.5.zip
+  - url: https://github.com/stelligent/mu-cloudfront/archive/v0.4.zip
