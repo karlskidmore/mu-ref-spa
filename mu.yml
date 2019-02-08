@@ -1,7 +1,7 @@
 namespace: spat
 environments:
 - name: acceptance
-- name: production
+#- name: production
 service:
   name: spa
   port: 8080
@@ -11,6 +11,8 @@ service:
   pipeline:
     source:
       repo: karlskidmore/mu-ref-spa
+    production:
+      disabled: true
 parameters:
   spat-pipeline-spa:
     MuImage: "aws/codebuild/docker:17.09.0"
